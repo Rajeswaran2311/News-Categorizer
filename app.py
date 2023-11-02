@@ -14,7 +14,7 @@ app = Flask(__name__)
 # Replace this with your actual News API key
 NEWS_API_KEY = "9a2615095e6c414cb2a87d1858b8aa8c"
 NEWS_API_URL = "https://newsapi.org/v2/top-headlines?sources=bbc-news"
-class_labels = ['business', 'politics', 'entertainment','sport','tech']
+class_labels = ['Business', 'Entertainment', 'Politics', 'Sport',' Tech']
 # the maximum number of words to keep, based on word frequency
 NUM_WORDS = 1000
 
